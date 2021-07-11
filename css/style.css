@@ -1,0 +1,136 @@
+body
+	{
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+	}
+
+p
+	{
+		color: #1a2c4d;
+		font-family: 'Times New Roman';
+		font-size: 20px;
+		text-indent: 20px;
+	}
+
+h1
+	{
+		color: white;
+		width: 230px;
+		background-color: #424242;
+		font-family: 'paytone one';
+		font-size: 30px;
+		text-indent: 5px;
+		text-align: center;
+	}
+
+table,tr,th,td
+	{
+		border:1px solid black;
+		border-collapse: all;
+		text-align: center;
+	}
+
+tr:nth-child(even)
+	{
+		background-color:#debcb0;
+	}
+
+tr
+	{
+		background-color:grey;
+	}
+
+tr
+	{
+		background-color:#d6a4a9;
+		height: 30px;
+	}
+
+td
+	{
+		padding: 9px;
+	}
+
+* 
+	{
+		font-family: 'Montserrat', sans-serif;
+		list-style: none;
+		padding: 0;
+	}
+
+div.slider
+	{
+
+		background-color:#e3c598;
+		text-align:center;
+		align-self: : center;
+		padding: 15px;
+	}
+
+
+.slideshow-container
+	{
+		max-width: 100px;
+		position:relative;
+		margin-left: : 0%;
+		margin-right: 0%;
+		align-self: center;
+	}
+
+
+/* fade animation */
+
+.fade
+	{
+		animation-name: fade;
+		animation-duration: 2s;
+	}
+
+@keyframes fade
+	{
+		from {opacity: .5;}
+		to {opacity: 1;}	
+	}
+
+.active
+	{
+		background-color: #808080;
+	}
+
+*
+	{
+		box-sizing: border-box;
+	}
+
+/*---------footer---------*/
+
+footer
+	{
+		text-align: center;
+		font-size:9px;
+		font-family: 'Alfa Slab One', cursive;
+		background-color: #1a2c4d;
+		padding: 50px 0px;
+	}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 560px;
+}
+
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
